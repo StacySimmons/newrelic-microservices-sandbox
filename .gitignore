@@ -34,3 +34,4 @@ override.tf.json
 terraform.tfvars
 *.kubeconfig
 terraform/tarraform.tfvars
+terraform/.terraform.lock.hcl
