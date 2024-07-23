@@ -10,6 +10,8 @@ resource "helm_release" "ingress_nginx" {
   wait       = true
   timeout    = 600
 
+  version    = "4.8.3"
+
   name       = "ingress-nginx"
 
   repository = "https://kubernetes.github.io/ingress-nginx"
